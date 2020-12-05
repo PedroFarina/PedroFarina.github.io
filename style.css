@@ -1,6 +1,6 @@
 :root {
-    --h1: #D46262;
-    --h2: black;
+    --title: #D46262;
+    --miniTitle: black;
     --activeColor: white;
     --backgroundActiveColor: #D46262;
     --background: #F4F4F4;
@@ -16,22 +16,21 @@ body {
 h1 {
     font-style: bold;
     font-weight: 600;
-    color: var(--h1);
+    color: var(--title);
 }
 
 h2 {
     font-style: bold;
     font-family: Nunito Sans;
     font-weight: 400;
-    color: var(--h2)
+    color: var(--miniTitle)
 }
 
-.clear {
-    clear: both;
-}
-
-.inline {
-    display: inline;
+h3 {
+    font-style: bold;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    color: var(--miniTitle)
 }
 
 .height100 {
@@ -44,10 +43,6 @@ h2 {
 
 .noPadding {
     padding: 0 !important;
-}
-
-#intro {
-    height: 100vh; 
 }
 
 .active {
@@ -97,6 +92,6 @@ h2 {
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: var(--backgroundCard);
     border-radius: 20px;
 }

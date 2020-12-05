@@ -1,9 +1,9 @@
-function createTitle(highlight, extraClasses) {
+function createTitle(highlight, extraClasses, tag = "h2") {
     var className = "mb-3"
     if (!!extraClasses) {
         className += " " + extraClasses
     }
-    const text = createCustomElement("h2", className);
+    const text = createCustomElement(tag, className);
     text.innerHTML = highlight.name;
     return text
 }

@@ -141,6 +141,7 @@ const projects = [
         subtitle: "A cool portfolio.",
         description: "Front-end project to show myself for you and other people. Pixel art by: Teguh Andi Raharjo.",
         technologies: "HTML, CSS, JavaScript, Bootstrap.",
+        gitHubLink: "https://github.com/PedroFarina/pedrofarina.github.io",
         imagePath: "./assets/PedroPixelArt.png"
     }
 ];
