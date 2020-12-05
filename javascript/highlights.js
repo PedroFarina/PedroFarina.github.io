@@ -9,11 +9,11 @@ function displayHighlight() {
 }
 
 function createHighlightCard(highlight, row) {
-    const imageBox = createCustomElement("div", "col-xs-12 col-lg-6")
+    const imageBox = createCustomElement("div", "col-xs-12 col-lg-6 mb-2")
     const image = createHighlightImage(highlight);
     imageBox.appendChild(image);
 
-    const textContainer = createCustomElement("div", "col-xs-12 col-lg-6 d-flex flex-column justify-content-between");
+    const textContainer = createCustomElement("div", "col-xs-12 col-lg-6 mb-2 d-flex flex-column justify-content-between");
     const textBox = createElement("div");
 
     const title = createTitle(highlight);

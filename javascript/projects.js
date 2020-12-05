@@ -18,9 +18,9 @@ function createProjectsCards(project, row) {
 
     const image = createProjectImage(project);
 
-    const titleSubtitleDiv = createCustomElement("div", "col-8")
+    const titleSubtitleDiv = createCustomElement("div", "col-9")
     const subtitle = createSubtitle(project);
-    const title = createTitle(project, "col-9 noPadding", "h3");
+    const title = createTitle(project, "noPadding", "h3");
 
     imageTextDiv.appendChild(image);
     titleSubtitleDiv.appendChild(title);
