@@ -70,6 +70,6 @@ function GithubImage() {
     if(lang == "pt") {
         return "assets/Disponivel no Github.png"
     } else {
-        return "assets/Available on Github.png"
+        return "assets/Available on GitHub.png"
     }
 }
