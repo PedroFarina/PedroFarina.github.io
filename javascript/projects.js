@@ -1,11 +1,17 @@
 function displayProjects() {
     const section = document.getElementById("projects");
+
+    var langIndex = 0
+    if(lang == "pt") {
+        langIndex = 1
+    }
+
     var row = createCustomElement("div", "row mb-3 d-flex flex-row justify-content-between");
     for (var i = 0; i < projects.length; i++) {
         if(i % 2 == 0) {
             row = createCustomElement("div", "row mb-3 d-flex flex-row justify-content-between")
         }
-        createProjectsCards(projects[i], row);
+        createProjectsCards(projects[i][langIndex], row);
         section.appendChild(row);
     }
 }
@@ -37,11 +43,11 @@ function createProjectsCards(project, row) {
     linkBox.appendChild(technologies);
 
     if (!!project.appStoreLink) {
-        const appStore = createImageLink("assets/Available on the App Store.png", project.appStoreLink, "App Store");
+        const appStore = createImageLink(AppStoreImage(), project.appStoreLink, "App Store");
         linkBox.appendChild(appStore);
     }
     if (!!project.gitHubLink) {
-        const github = createImageLink("assets/Available on GitHub.png", project.gitHubLink, "GitHub", !!project.appStoreLink);
+        const github = createImageLink(GithubImage(), project.gitHubLink, "GitHub", !!project.appStoreLink);
         linkBox.appendChild(github);
     }
     cardBackground.appendChild(linkBox);

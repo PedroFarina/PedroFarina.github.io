@@ -7,8 +7,10 @@
         <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
 
+        <script src="./javascript/localization.js"></script>
         <script src="./javascript/data.js"></script>
         <script src="./javascript/common functions.js"></script>
         <script src="./javascript/highlights.js"></script>
@@ -31,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#top">About me</a>
+                        <a id="navAboutMe" class="nav-link scroll" href="#top">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#highlights">Highlights</a>
+                        <a id="navHighlights" class="nav-link scroll" href="#highlights">Highlights</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#projects">Projects</a>
+                        <a id="navProjects" class="nav-link scroll" href="#projects">Projects</a>
                     </li>            
                 </ul>
             </div>
@@ -49,11 +51,11 @@
                 <img src="./assets/profile.jpeg" alt="Profile picture of Pedro Farina" class="profile rounded-circle img-thumbnail">
             </div>
             <div class="col-sm-11 col-md-7">
-                <h1 class="mb-3 px-3">Hello there!</h1>
-                <p class="mb-2 px-3">If you're visting this page, you're probably wondering ”Who's Pedro Farina”. And to be honest, that answer changes from time to time.</p>
-                <p class="mb-2 px-3">For now, what I do know is that I love people, videogames and coding. I like to meet new people, and I'm always eager to find out about new technologies and how we can use it to act on our everyday lives.</p>
-                <p class="mb-2 px-3">I always try to be a positive person and enjoy my time with those around me, I'm always making jokes as you'll see in this portfolio. Feel free to browse here.</p>
-                <p class="mb-2 px-3">And if you're interested in me, well, I'm currently taken, but you can always check out my projects and send me a message.</p>
+                <h1 id="introTitle" class="mb-3 px-3">Hello there!</h1>
+                <p id="intro-p1" class="mb-2 px-3">If you're visting this page, you're probably wondering ”Who's Pedro Farina?”. And to be honest, that answer changes from time to time.</p>
+                <p id="intro-p2" class="mb-2 px-3">For now, what I do know is that I love people, videogames and coding. I like to meet new people, and I'm always eager to find out about new technologies and how we can use it to act on our everyday lives.</p>
+                <p id="intro-p3" class="mb-2 px-3">I always try to be a positive person and enjoy my time with those around me, I'm always making jokes as you'll see in this portfolio. Feel free to browse here.</p>
+                <p id="intro-p4" class="mb-2 px-3">And if you're interested in me, well, I'm currently taken, but you can always check out my projects and send me a message.</p>
                 <div class="px-3">
                     <a href="https://github.com/PedroFarina" target="_blank"><img src="./assets/Github.png"  class="img-link float-left"></a>
                     <a href="https://www.linkedin.com/in/pedro-farina-299841170" target="_blank"><img src="./assets/LinkedIN.png"  class="img-link spacing float-left"></a>
@@ -64,7 +66,7 @@
 
         <!-- Highlights -->
         <section id="highlights" class="container">
-            <h1 style="padding: 8vh 0 3vh 0;">Highlights</h1>
+            <h1 id="highlightTitle" style="padding: 8vh 0 3vh 0;">Highlights</h1>
         </section>
 
         <script>
@@ -73,7 +75,7 @@
 
         <!-- Projects -->
         <section id="projects" class="container">
-            <h1 style="padding: 8vh 0 3vh 0;">Projects</h1>
+            <h1 id="projectsTitle" style="padding: 8vh 0 3vh 0;">Projects</h1>
         </section>
 
         <script>

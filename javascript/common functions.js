@@ -57,3 +57,19 @@ function createCustomElement(elementName, className) {
     element.className = className;
     return element;
 }
+
+function AppStoreImage() {
+    if(lang == "pt") {
+        return "assets/Disponivel na App Store.png"
+    } else {
+        return "assets/Available on the App Store.png"
+    }
+}
+
+function GithubImage() {
+    if(lang == "pt") {
+        return "assets/Disponivel no Github.png"
+    } else {
+        return "assets/Available on Github.png"
+    }
+}

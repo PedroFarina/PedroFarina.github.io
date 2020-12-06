@@ -1,9 +1,14 @@
 function displayHighlight() {
     const section = document.getElementById("highlights");
 
+    var langIndex = 0
+    if(lang == "pt") {
+        langIndex = 1
+    }
+
     for (var i = 0; i < highlights.length; i++) {
         const row = createCustomElement("div", "row mb-5");
-        createHighlightCard(highlights[i], row);
+        createHighlightCard(highlights[i][langIndex], row);
         section.appendChild(row);
     }
 }
@@ -23,15 +28,19 @@ function createHighlightCard(highlight, row) {
     textBox.appendChild(desc);
 
     const linkBox = createElement("div");
-    const technologies = createTextGroup("Technologies: ", highlight.technologies);
+    var tecString = "Technologies: "
+    if (lang == "pt") {
+        tecString = "Tecnologias: "
+    }
+    const technologies = createTextGroup(tecString, highlight.technologies);
     linkBox.appendChild(technologies);
 
     if (!!highlight.appStoreLink) {
-        const appStore = createImageLink("assets/Available on the App Store.png", highlight.appStoreLink, "App Store");
+        const appStore = createImageLink(AppStoreImage(), highlight.appStoreLink, "App Store");
         linkBox.appendChild(appStore);
     }
     if (!!highlight.gitHubLink) {
-        const github = createImageLink("assets/Available on GitHub.png", highlight.gitHubLink, "GitHub", !!highlight.appStoreLink);
+        const github = createImageLink(GithubImage(), highlight.gitHubLink, "GitHub", !!highlight.appStoreLink);
         linkBox.appendChild(github);
     }
     textContainer.appendChild(textBox);
