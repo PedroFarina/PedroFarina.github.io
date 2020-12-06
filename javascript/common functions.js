@@ -60,16 +60,16 @@ function createCustomElement(elementName, className) {
 
 function AppStoreImage() {
     if(lang == "pt") {
-        return "assets/Disponivel na App Store.png"
+        return "assets/appStorePT.png"
     } else {
-        return "assets/Available on the App Store.png"
+        return "assets/appStoreEN.png"
     }
 }
 
 function GithubImage() {
     if(lang == "pt") {
-        return "assets/Disponivel no Github.png"
+        return "assets/githubPT.png"
     } else {
-        return "assets/Available on GitHub.png"
+        return "assets/githubEN.png"
     }
 }
