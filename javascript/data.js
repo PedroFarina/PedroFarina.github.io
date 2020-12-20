@@ -197,6 +197,7 @@ const projects = [
             subtitle: "A watchOS rythm game.",
             description: "Generates a random sequence for the user to repeat, using the indicators and the Digital Crown.",
             technologies: "WatchKit, SpriteKit.",
+            appStoreLink: "https://apps.apple.com/us/app/id1503374090",
             gitHubLink: "https://github.com/ComputacaoMackenzie/2020-watchos-challenge-raygorina",
             imagePath: "./assets/BeatIcon.png"
         },
@@ -205,6 +206,7 @@ const projects = [
             subtitle: "Um jogo de watchOS rítmico.",
             description: "Gera uma sequência aleatória para o usuário repetir, usando os indicadores na tela e 'Digital Crown'.",
             technologies: "WatchKit, SpriteKit.",
+            appStoreLink: "https://apps.apple.com/us/app/id1503374090",
             gitHubLink: "https://github.com/ComputacaoMackenzie/2020-watchos-challenge-raygorina",
             imagePath: "./assets/BeatIcon.png"
         }
