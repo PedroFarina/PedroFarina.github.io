@@ -5,7 +5,7 @@ const highlights = [
             description: "Dive into this journey and be prepared to dance to the rythm of the future in this local-multiplayer competitive musical game. " +
             "Play the right notes at the right time and get points. As the points increases the music gets better and your robot gets happier.",
             technologies: "SwiftUI, SpriteKit, Multipeer, AVFoundation.",
-            appStoreLink: "https://apps.apple.com/us/app/beatbots-music-in-space/id1523929259",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1523929259?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/Beatbots",
             imagePath: "./assets/BeatbotsIcon.png"
         },
@@ -14,7 +14,7 @@ const highlights = [
             description: "Mergulhe nessa jornada e se prepare para dançar ao ritmo do futuro nesse jogo musical competitivo local-multiplayer. " +
             "Acerte as notas no tempo certo e ganhe pontos. A cada ponto recebido a música fica melhor e seu robô fica mais feliz.",
             technologies: "SwiftUI, SpriteKit, Multipeer, AVFoundation.",
-            appStoreLink: "https://apps.apple.com/br/app/beatbots-music-in-space/id1523929259",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1523929259?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/Beatbots",
             imagePath: "./assets/BeatbotsIcon.png"
         }
@@ -45,7 +45,7 @@ const highlights = [
             description: "An online platform that generates digital accessible doorbells using QR Code technology that notifies the user when a visitor scans and identifies himself in a web browser. " +
             "It also relies on a password for those who want to protect their doorbells.",
             technologies: "UIKit (Storyboard), CloudKit.",
-            appStoreLink: "https://apps.apple.com/us/app/nok/id1478788822",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1478788822?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/mc3-wojupe",
             imagePath: "./assets/NokUSIcon.png"
         },
@@ -54,7 +54,7 @@ const highlights = [
             description: "Uma plataforma online que gera campainhas digitais acessíveis usando a tecnologia de código QR que ao ser escaneado leva o visitante a uma página web para se identificar e notificar o usuário." +
             "Para evitar trotes e maior segurança o app também conta com a proteção por senha.",
             technologies: "UIKit (Storyboard), CloudKit.",
-            appStoreLink: "https://apps.apple.com/br/app/nok/id1478788822",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1478788822?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/mc3-wojupe",
             imagePath: "./assets/NokBRIcon.png"
         }
@@ -67,7 +67,7 @@ const projects = [
             subtitle: "A Wake-On-Lan Companion.",
             description: "Application that uses wake-on-lan to turn on your devices integrated with Siri.",
             technologies: "UIKit (Storyboard), CoreData, CloudKit, SiriKit.",
-            appStoreLink: "https://apps.apple.com/us/app/swol/id1502303446",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1502303446?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/SWoL",
             imagePath: "./assets/SwolIcon.png"
         },
@@ -76,7 +76,7 @@ const projects = [
             subtitle: "Assistente Wake-On-Lan.",
             description: "Um app que usa o protocolo Wake-On-Lan pra ligar seus dispositivos integrado com a Siri.",
             technologies: "UIKit (Storyboard), CoreData, CloudKit, SiriKit.",
-            appStoreLink: "https://apps.apple.com/br/app/swol/id1502303446",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1502303446?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/SWoL",
             imagePath: "./assets/SwolIcon.png"
         }
@@ -159,7 +159,7 @@ const projects = [
             subtitle: "A colorful experience.",
             description: "An UIKit puzzle game inspired by \"The Giver\" concept using UIDynamics to animate the objects. Uses UIGameKit.",
             technologies: "UIKit (Storyboard + \"ViewCode\"), Factory, CoreData.",
-            appStoreLink: "https://apps.apple.com/br/app/life-giver/id1473472103",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1473472103?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/Projeto-Ferias",
             imagePath: "./assets/LifeGiver.png"
         },
@@ -168,7 +168,7 @@ const projects = [
             subtitle: "Uma experiência de cores.",
             description: "Um jogo puzzle inspirado pelo conceito do \"Doador de Memórias\" usando UIDynamics para animar os objetos. Usa a biblioteca UIGameKit.",
             technologies: "UIKit (Storyboard + \"ViewCode\"), Factory, CoreData.",
-            appStoreLink: "https://apps.apple.com/us/app/life-giver/id1473472103",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1473472103?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/Projeto-Ferias",
             imagePath: "./assets/LifeGiver.png"
         }
@@ -217,7 +217,7 @@ const projects = [
             subtitle: "An event planner experiment.",
             description: "A project with custom UIViews and design for planning events divided in different modules.",
             technologies: "UIKit (Storyboard), MapKit, Carthage, EventKit, CoreData.",
-            appStoreLink: "https://apps.apple.com/br/app/eve-planejador-de-eventos/id1515940589",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1515940589?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/MiniRemoto",
             imagePath: "./assets/EveIcon.png"
         },
@@ -226,7 +226,7 @@ const projects = [
             subtitle: "Um experimento de planejamento de eventos.",
             description: "Um projeto com UIViews e design customizados pra planejamento de eventos divididos em módulos.",
             technologies: "UIKit (Storyboard), MapKit, Carthage, EventKit, CoreData.",
-            appStoreLink: "https://apps.apple.com/br/app/eve-planejador-de-eventos/id1515940589",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1515940589?pt=120130963&ct=Portfolio&mt=8",
             gitHubLink: "https://github.com/PedroFarina/MiniRemoto",
             imagePath: "./assets/EveIcon.png"
         }
@@ -255,7 +255,7 @@ const projects = [
             subtitle: "A Tower Defense game.",
             description: "Neo Tokyo design based tower defense game in which you have to defend the city against creatures that want your neon.",
             technologies: "SpriteKit, GameplayKit, Entity Component.",
-            appStoreLink: "https://apps.apple.com/us/app/tokyo-jack/id1493019368",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1493019368?pt=120130963&ct=Portfolio&mt=8",
             imagePath: "./assets/TokyoJackIcon.png"
         },
         {
@@ -263,7 +263,7 @@ const projects = [
             subtitle: "Um jogo Tower Defense.",
             description: "Um jogo Tower Defense com design inspirado Neo Tokyo no qual você deve defender a cidade de criaturas que querem o seu neon.",
             technologies: "SpriteKit, GameplayKit, Entity Component.",
-            appStoreLink: "https://apps.apple.com/br/app/tokyo-jack/id1493019368",
+            appStoreLink: "https://apps.apple.com/app/apple-store/id1493019368?pt=120130963&ct=Portfolio&mt=8",
             imagePath: "./assets/TokyoJackIcon.png"
         }
     ],
